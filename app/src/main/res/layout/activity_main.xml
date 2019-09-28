@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcdffe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/id_text1"
+        android:layout_width="375dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/home_title"
+        android:textColor="#000000"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/id_b1"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#11c5e5"
+        android:text="@string/open_door"
+        android:textColor="#ffffff"
+        android:onClick="onClickB1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_text1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/id_b2"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#3b6ded"
+        android:text="@string/wifi_pass"
+        android:textColor="#ffffff"
+        android:onClick="onClickB2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_b1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/id_b3"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#9e11e5"
+        android:text="@string/call_waiter"
+        android:textColor="#ffffff"
+        android:onClick="onClickB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_b2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/id_b4"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#11c5e5"
+        android:text="@string/door_cam"
+        android:textColor="#ffffff"
+        android:onClick="onClickB4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_b3"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/id_b5"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#3b6ded"
+        android:text="@string/food"
+        android:textColor="#ffffff"
+        android:onClick="onClickB5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_b4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/id_b6"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#9e11e5"
+        android:text="@string/bill"
+        android:textColor="#ffffff"
+        android:onClick="onClickB6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_b5"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
