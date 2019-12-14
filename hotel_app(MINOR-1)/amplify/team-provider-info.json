@@ -1,0 +1,19 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-proj1-master-144840-authRole",
+            "UnauthRoleArn": "arn:aws:iam::849048368063:role/amplify-proj1-master-144840-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::849048368063:role/amplify-proj1-master-144840-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-proj1-master-144840-deployment",
+            "UnauthRoleName": "amplify-proj1-master-144840-unauthRole",
+            "StackName": "amplify-proj1-master-144840",
+            "StackId": "arn:aws:cloudformation:eu-central-1:849048368063:stack/amplify-proj1-master-144840/68574150-0e9b-11ea-bd3e-064a8d32fc9e"
+        },
+        "categories": {
+            "auth": {
+                "proj166d7d021": {}
+            }
+        }
+    }
+}
